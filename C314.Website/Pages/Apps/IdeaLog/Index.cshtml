@@ -1,0 +1,26 @@
+﻿@page
+@model C314.Website.Pages.Apps.IdeaLog.IndexModel
+@{
+	ViewData["Title"] = "IdeaLog";
+}
+
+<div class="text-center">
+	<h1>@ViewData["Title"]</h1>
+	<p>A simple commandline tool to quicly record ideas. <a href="https://github.com/314ShadePi/C314.IdeaLog" target="_blank">Source</a></p>
+	<h2>Installation</h2>
+	<p>1. Install visual studio 2022 and git</p>
+	<p>2. Clone the <a href="https://github.com/314ShadePi/C314.IdeaLog.git">repo</a></p>
+	<p>3. Open the solution file</p>
+	<p>4. Build the project</p>
+	<p>5. Copy the files to a directory of your choice</p>
+	<p>6. Add the directory to your PATH</p>
+	<p>7. Open a new terminal</p>
+	<p>8. Run the command <code>idea [options]</code></p>
+	<h2>Usage</h2>
+	<p>Add an idea to the log:</p>
+	<pre><code class="lang-powershell">idea <span class="hljs-keyword">add</span><span class="bash"> <span class="hljs-string">"My idea"</span></span>
+	</code></pre>
+	<p>View the log:</p>
+	<pre><code class="lang-powershell">idea <span class="hljs-built_in">list</span>
+	</code></pre>
+</div>
